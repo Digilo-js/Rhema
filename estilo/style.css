@@ -5,7 +5,7 @@
 
 @font-face{
     font-family: "linda";
-    src: url(font/DancingScript-Bold.ttf)format("opentype");
+    src: url(../font/DancingScript-Bold.ttf)format("opentype");
 }
 
 :root{
@@ -15,7 +15,7 @@
 html, body{
     height: 100vh;
     width: 100vw;
-    background: url(img/etus-evolucao-redes-sociais-800x400.jpg);
+    background: url(../img/etus-evolucao-redes-sociais-800x400.jpg);
     background-position: right bottom;
    
 }
@@ -182,7 +182,7 @@ footer{
     }
      main{ 
         margin: auto;
-        background: url(img/etus-evolucao-redes-sociais-800x400.jpg) no-repeat;
+        background: url(../img/etus-evolucao-redes-sociais-800x400.jpg) no-repeat;
         background-size: cover;
         background-color: #231f20; 
         width: 100vw;
@@ -215,7 +215,7 @@ footer{
         margin: auto;
         height: 100vh;
         width: 100vw;
-        background: url(img/pexels-padrinan-255379.jpg);
+        background: url(../img/pexels-padrinan-255379.jpg);
         background-position: center top;
         background-size: cover;
     }
@@ -226,7 +226,7 @@ footer{
     html, body{
         height: 100vh;
         width: 100vw;
-        background: url(img/pexels-padrinan-255379.jpg);
+        background: url(../img/pexels-padrinan-255379.jpg);
         background-size: cover;
     }
      
@@ -261,7 +261,7 @@ footer{
         margin: auto;
         margin-bottom: 20px;
         border-radius: 20px;
-        background: url(Paginas/imagens/etus-evolucao-redes-sociais-800x400.jpg);
+        background: url(../img/etus-evolucao-redes-sociais-800x400.jpg);
     }
 
     footer h1 {
@@ -346,7 +346,7 @@ footer{
     div#mala{
         width: 250px;
         background-color: #231f20;
-        background: url(img/ooo.png)no-repeat;
+        background: url(../img/ooo.png)no-repeat;
         background-size: contain;
         background-position: center center;
     }
