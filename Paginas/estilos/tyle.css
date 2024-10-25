@@ -1,0 +1,539 @@
+@charset "UTF-8";
+
+
+@media all {
+
+@font-face{
+    font-family: "linda";
+    src: url(../font/DancingScript-Bold.ttf)format("opentype");
+}
+
+::-webkit-scrollbar{
+    height: 0px;
+    width: 0px;
+}
+
+:root{
+   --fonte-lindo:"linda";
+}
+
+
+body{
+    margin: 0%;
+    padding: 0%;
+    background: url(../imagens/etus-evolucao-redes-sociais-800x400.jpg);
+    
+}
+
+div.foto{
+    width: 350px;
+    height: 600px;
+    margin: auto;
+    background: url(../imagens/FB_IMG_17290754438129058.jpg) ;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: rgb(230, 228, 228);
+}
+div.foto1{
+    width: 350px;
+    height: 600px;
+    margin: auto;
+    background: url(../imagens/lore.jpg);
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    background-color: rgb(230, 228, 228);
+}
+
+div.foto8{
+    width: 350px;
+    height: 600px;
+    margin: auto;
+    background: url(../imagens/rema.jpg);
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: rgb(230, 228, 228);
+}
+
+div.foto2{
+    width: 350px;
+    height: 600px;
+    margin: auto;
+    background: url(../imagens/FB_IMG_17290758860558993.jpg);
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    background-color: rgb(230, 228, 228);
+}
+div.foto3{
+    width: 350px;
+    height: 600px;
+    margin: auto;
+    background: url(../imagens/FB_IMG_17290756685158852.jpg);
+    background-position: center center
+    ;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: rgb(230, 228, 228);
+}
+div.foto4{
+    width: 350px;
+    height: 600px;
+    margin: auto;
+    background: url(../imagens/FB_IMG_17290756685158852.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: rgb(230, 228, 228);
+}
+div.foto5{
+    width: 350px;
+    height: 600px;
+    margin: auto;
+    background: url(../imagens/poster.jpg);
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: rgb(230, 228, 228);
+    
+}
+div.foto6{
+    width: 350px;
+    height: 600px;
+    margin: auto;
+    background: url(../imagens/love.jpg);
+    background-position:  center center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: rgb(230, 228, 228);
+    
+}
+div.foto7{
+    width: 350px;
+    height: 600px;
+    margin: auto;
+    background: url(../imagens/buchexa.jpg);
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    background-color: rgb(230, 228, 228);
+    
+}
+div.foto10{
+    width: 350px;
+    height: 600px;
+    margin: auto;
+    background: url(../imagens/eh.jpg);
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    background-color: rgb(230, 228, 228);
+    
+}
+div.foto9{
+    width: 350px;
+    height: 600px;
+    margin: auto;
+    background: url(../imagens/voce.jpg);
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    background-color: rgb(230, 228, 228);
+    
+}
+#ff{
+    font-family: var(--fonte-lindo);
+    text-align: center;
+    color: #d500bb;
+    font-size: 35px;
+    
+}
+div h1{
+    font-family: var(--fonte-lindo);
+    text-align: center;
+    color: #d500bb;
+    font-size: 35px;
+    
+}
+
+header{
+    background-color: rgba(0, 0, 0, 0.808);
+    backface-visibility:unset;
+    backdrop-filter: blur(10px);
+    background-attachment: fixed;
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+    box-shadow: 1px 1px 8px 2px black;
+    border: 1px  solid black;
+    
+}
+
+header h1 {
+    font-family:var(--fonte-lindo);
+    font-size: 50px;
+    color: #d500bb;
+    padding: 20px;
+    margin: 0px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.507);
+}
+
+header#labo  img{
+        border-radius: 50%;
+        box-shadow: 1px 1px 9px black;
+        width: 50px;
+        padding: 7px;
+        box-sizing: border-box;
+        
+    }
+
+    header#labo img:hover{
+        border: 1px solid #d500bb;
+        background-color: rgb(199, 227, 255);
+    }
+
+    main h1{
+        font-size: 30px;
+    }
+
+
+    nav{
+        text-decoration: none;
+        padding: 10px;
+        text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.507);
+    }
+
+    nav#link a{
+        color: white;
+        text-decoration: none;
+        font-size: 18px;
+        font-weight: bolder;
+        padding: 10px;
+        
+    }
+
+    nav#link a:hover{
+        color: #d500bb;
+        text-shadow: 0px 0px 0px rgba(0, 0, 0, 0.507);
+    }
+    
+    main{
+        padding: 10px ;
+        width: 350px;
+        height: 100%;
+        margin: auto;
+        border-radius: 20px;
+        border: 1px solid black;
+        backface-visibility: hidden;
+        backdrop-filter:blur(20px) ;
+        background-color: rgba(0, 0, 0, 0.808);
+       
+    }
+    footer h1{
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: rgba(0, 0, 0, 0.519);
+        color: white;
+        padding: 10px;
+        margin-bottom: 0px ;
+    }
+    footer h2{
+        font-size: 30px;
+        background-color: rgba(0, 0, 0, 0.519);
+        padding: 10px;
+    }
+
+    footer{
+        font-family: var(--fonte-lindo);
+        background-color: #231f20;
+        color: #d500bb;
+        text-align: center;
+    }
+}
+
+@media screen and (orientation:landscape) {
+    main{
+        padding: 10px;
+        width: 100vh;
+        height: 100%;
+        margin: auto;
+        border-radius: 20px;
+        border: 1px solid black;
+        backface-visibility: hidden;
+        backdrop-filter:blur(20px) ;
+        background-color: #000000;
+       
+    }
+
+    div.foto{
+        width: 100vh;
+        height: 400px;
+        background-size: contain;
+        background-position: center center;
+        
+    }
+    div.foto1{
+        width: 100vh;
+        height: 400px;
+        background-size: contain;
+        background-position: center center;
+        
+    }
+    div.foto1{
+        width: 100vh;
+        height: 400px;
+        background-size: contain;
+        background-position: center center;
+        
+    }
+    div.foto2{
+        width: 100vh;
+        height: 400px;
+        background-size: contain;
+        background-position: center center;
+        
+    }
+    div.foto3{
+        width: 100vh;
+        height: 400px;
+        background-size: contain;
+        background-position: center center;
+        
+    }
+    div.foto4{
+        width: 100vh;
+        height: 400px;
+        background-size: contain;
+        background-position: center center;
+        
+    }
+    div.foto5{
+        width: 100vh;
+        height: 300px;
+        background-size: contain;
+        background-position: center center;
+        
+    }
+    div.foto6{
+        width: 100vh;
+        height: 400px;
+        background-size: contain;
+        background-position: center center;
+        
+    }
+    div.foto9{
+        width: 100vh;
+        height: 400px;
+        background-size: contain;
+        background-position: center center;
+        
+    }
+    div.foto10{
+        width: 100vh;
+        height: 400px;
+        background-size: contain;
+        background-position: center center;
+        
+    }
+
+    div.foto8{
+        width: 100vh;
+        height: 400px;
+        background-size: contain;
+        background-position: center center;
+        
+    }
+    div.foto7{
+        width: 100vh;
+        height: 400px;
+        background-size: contain;
+        background-position: center center;
+        
+    }
+
+     div h1{
+        font-size: 30px;
+     }
+
+    footer{
+       width: 100%;
+    }
+
+}
+
+@media screen and (max-width:300px) {
+    main{
+        width: 250px;
+        background-color: rgba(0, 0, 0, 0.808); 
+        backface-visibility:unset;
+        backdrop-filter: blur(10px);
+    }
+    header h1{
+        font-size: 40px;
+    }
+
+    div.foto{
+       width: 250px;
+    }
+
+    div.foto{
+        width: 250px;
+     }
+     div.foto1{
+        width: 250px;
+     }
+     div.foto2{
+        width: 250px;
+     }
+     div.foto3{
+        width: 250px;
+     }
+     div.foto4{
+        width: 250px;
+     }
+     div.foto5{
+        width: 250px;
+     }
+     div.foto6{
+        width: 250px;
+     }div.foto7{
+        width: 250px;
+     }
+     div.foto8{
+        width: 250px;
+     }
+     div.foto9{
+        width: 250px;
+     }
+     div.foto10{
+        width: 250px;
+     }
+
+     div h1{
+        font-size: 20px;
+     }
+     footer h2{
+        font-size: 18px;
+    }
+    footer h1 {
+        font-size: 25px;
+    }
+    
+
+}
+@media screen and (max-width:280px) {
+      main{
+        background-color: rgba(0, 0, 0, 0.808);
+        backface-visibility:unset;
+        backdrop-filter: blur(10px);
+        width: 210px;
+      }
+      header h1{
+        font-size: 34px;
+      }
+     
+      div.foto{
+        width: 210px;
+    }
+    div.foto1{
+        width: 210px;
+    }
+    div.foto2{
+        width: 210px;
+    }
+    div.foto3{
+        width: 210px;
+    }
+    div.foto4{
+        width: 210px;
+    }
+    div.foto5{
+        width: 210px;
+    }
+    div.foto6{
+        width: 210px;
+    }
+    div.foto7{
+        width: 210px;
+    }
+    div.foto8{
+        width: 210px;
+    }
+    div.foto9{
+        width: 210px;
+    }
+    div.foto10{
+        width: 210px;
+    }
+    nav#link a{
+        padding: 5px;
+        font-size: 15px;
+    }
+    main h1{
+        font-size: 15px;
+    }
+    footer h2{
+        font-size: 15px;
+    }
+    footer h1 {
+        font-size: 25px;
+    }
+    
+}
+@media screen and (min-width: 300px) and (max-width: 400px) {
+    main{
+        background-color: rgba(0, 0, 0, 0.808);
+        backface-visibility:unset;
+        backdrop-filter: blur(10px);
+        width: 270px;
+    }
+    header h1 {
+        font-size: 40px;
+    }
+    nav#link a {
+        font-size: 15px;
+    }
+    div.foto{
+        width: 260px;
+    }
+    div.foto1{
+        width: 260px;
+    }
+    
+    div.foto2{
+        width: 260px;
+    }
+    div.foto3{
+        width: 260px;
+    }
+    div.foto4{
+        width: 260px;
+    }
+    div.foto5{
+        width: 260px;
+    }
+    div.foto6{
+        width: 260px;
+    }
+    div.foto7{
+        width: 260px;
+    }
+    div.foto8{
+        width: 260px;
+    }
+    div.foto9{
+        width: 260px;
+    }
+    div.foto10{
+        width: 260px;
+    }
+    main h1{
+        font-size: 18px;
+    }
+    footer h2{
+        font-size: 20px;
+    }
+    footer h1 {
+        font-size: 25px;
+    }
+}

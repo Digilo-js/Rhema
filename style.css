@@ -1,0 +1,359 @@
+@charset "UTF-8";
+
+
+@media all {
+
+@font-face{
+    font-family: "linda";
+    src: url(font/DancingScript-Bold.ttf)format("opentype");
+}
+
+:root{
+   --fonte-lindo:"linda";
+}
+
+html, body{
+    height: 100vh;
+    width: 100vw;
+    background: url(img/etus-evolucao-redes-sociais-800x400.jpg);
+    background-position: right bottom;
+   
+}
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+header{
+    background-color: rgba(0, 0, 0, 0.694);
+    backface-visibility:unset;
+    backdrop-filter: blur(10px);
+    background-attachment: fixed;
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+    box-shadow: 1px 1px 8px 2px black;
+    border: 1px  solid black;
+}
+
+header h1 {
+    font-family:var(--fonte-lindo);
+    font-size: 60px;
+    color: #d500bb;
+    padding: 15px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.507);
+}
+
+h2{
+    margin-bottom: 11px;
+    font-size: 30px;
+    font-family: var(--fonte-lindo);
+    color: #d500bb;
+    text-shadow: 2px 2px 0px rgb(16, 16, 16);
+    font-weight: bolder;
+    text-align: center;
+}
+
+header#labo  img{
+    border-radius: 50%;
+    box-shadow: 1px 1px 9px black;
+    width: 50px;
+    padding: 7px;
+    box-sizing: border-box;
+    
+}
+ main{
+    width: 380px;
+    height: 100vh;
+    margin: auto;
+    border-radius: 30px;
+    background-color: rgba(0, 0, 0, 0.694);
+    backface-visibility:unset;
+    backdrop-filter: blur(10px);
+    
+} 
+section#fundi{
+    height: 100vh;
+    margin-bottom: 20px;
+}
+
+header#labo img:hover{
+    border: 1px solid #d500bb;
+    background-color: rgb(199, 227, 255);
+}
+
+
+
+nav{
+    text-decoration: none;
+    padding: 10px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.507);
+}
+
+nav#link a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bolder;
+    padding: 10px;
+    
+}
+
+nav#link a:hover{
+    color: #d500bb;
+    text-shadow: 0px 0px 0px rgba(0, 0, 0, 0.507);
+}
+
+nav#redes{
+    text-align: center;
+   
+}
+
+nav#redes img{
+    margin: 10px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: rgba(181, 194, 194, 0.977);
+    border: 1px solid black;
+    padding: 7px;
+    box-sizing: border-box;
+    box-shadow: 1px 1px 7px 2px black;
+
+}
+
+nav#redes img:hover{
+    background-color: #231f20;
+    border: 1px solid #d500bb;
+}
+
+   section#fundo{
+    margin: auto;
+     width: 350px;
+     height: 80vh;
+     background-color: black;
+} 
+ 
+ div#dd{
+    display: none;
+    margin: auto;
+    background-color: rgb(0, 0, 0);
+    width: 320px;
+    height: 540px;
+    
+}  
+
+ iframe#tela{
+    box-shadow: 1px 1px 8px 2px black;
+    height: 100%;
+    width: 100%;
+}
+ 
+footer h1{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(0, 0, 0, 0.519);
+    color: white;
+}
+ footer h2{
+    font-size: 30px;
+    background-color: rgba(0, 0, 0, 0.519);
+    padding: 10px;
+ }
+
+footer{
+    margin-top: 0px;
+    font-family: var(--fonte-lindo);
+    background-color: #231f20;
+    color: #d500bb;
+    text-align: center;
+}
+
+}
+
+@media screen and (orientation:landscape){ 
+    body, html{
+        height: 100%;
+    }
+    section#fundo{
+            margin: auto;
+            width: 400px;
+            height: 500px;
+            background-color: white;
+    }
+     main{ 
+        margin: auto;
+        background: url(img/etus-evolucao-redes-sociais-800x400.jpg) no-repeat;
+        background-size: cover;
+        background-color: #231f20; 
+        width: 100vw;
+        height: 600px;
+   }  
+    header h1 {
+        height: 100hv;
+        font-size: 70px;
+        color: #d500bb;
+        
+    }
+    
+     div#dd{ 
+       width: 400px;
+    } 
+    
+    
+    h2 {
+        font-size: 40px;
+       
+    }
+    
+     iframe#tela{
+        width: 100%;
+        height: 100%;
+       
+    } 
+
+    html, body{
+        margin: auto;
+        height: 100vh;
+        width: 100vw;
+        background: url(img/pexels-padrinan-255379.jpg);
+        background-position: center top;
+        background-size: cover;
+    }
+ 
+}
+
+@media screen and (max-width:400px) {
+    html, body{
+        height: 100vh;
+        width: 100vw;
+        background: url(img/pexels-padrinan-255379.jpg);
+        background-size: cover;
+    }
+     
+    
+    iframe#tela{
+        box-shadow: 1px 1px 8px 2px black;
+        height: 460px;
+        width: 100%;
+    }
+
+    section#fundo{
+            background-color: rgb(0, 0, 0);
+            border-radius: 0px 0px 0px 0px;
+            width: 260px;
+            height: 460px;
+            margin: auto;
+    }
+
+    main{    
+        width: 280px;
+        height: 560px;
+        margin: auto;
+        border-radius: 20px;
+        background-color: rgba(0, 0, 0, 0.694);
+    backface-visibility:unset;
+    backdrop-filter: blur(10px);
+        
+    }
+    section#fundi{
+        width: 280px;
+        height: 560px;
+        margin: auto;
+        margin-bottom: 20px;
+        border-radius: 20px;
+        background: url(Paginas/imagens/etus-evolucao-redes-sociais-800x400.jpg);
+    }
+
+    footer h1 {
+        font-size: 25px;
+    }
+
+    header h1{
+        font-size: 45px;
+        
+    }
+    nav#redes img{
+        width: 40px;
+    }
+
+    h2{
+       font-size: 20px;
+       padding-bottom: 5%;
+    }
+
+    img#cara{display: none;}
+
+    div#mala{
+        height: 80px;
+        width: 255px;
+       background-color: black;
+        
+    }
+    footer h2{
+        font-size: 10px;
+    }
+    
+     div#dd{
+        display: none;
+        margin: auto;
+        position: absolute;
+        background-color: tomato;
+        height: 100%;
+        width: 270px;
+    }      
+}
+@media screen and (max-width:290px) {
+    main{
+        background-color: rgba(0, 0, 0, 0.694);
+        backface-visibility:unset;
+        backdrop-filter: blur(10px);
+        width: 235px;
+    }
+    section#fundi{
+        width: 235px;
+    }
+   section#fundo{
+    background-color: rgb(0, 0, 0);
+    
+   }
+    iframe#tela{
+       
+    }
+    h2{
+        text-align: center;
+        font-size: 15px;
+    }
+    header#labo h1{
+        font-size: 35px;
+    }
+    nav#link a{
+        font-size: 13px;
+    }
+    section#fundo{
+        width: 220px;
+    }
+    header h1{
+        font-size: 40px;
+    }
+    nav#redes img{
+        width: 35px;
+        padding: 5px;
+    }
+    header#labo img{
+        width: 35px;
+        background-color: rgb(203, 216, 216);
+    }
+    div#mala{
+        width: 250px;
+        background-color: #231f20;
+        background: url(img/ooo.png)no-repeat;
+        background-size: contain;
+        background-position: center center;
+    }
+    footer h1{
+      font-size: 20px;
+    }
+    footer h2{
+          font-size: 15px;
+    }
+}
