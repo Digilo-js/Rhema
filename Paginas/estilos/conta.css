@@ -28,6 +28,7 @@ header{
 }
 
 div#conteu{
+    padding-top: 150px;
     height: 400px;
     width: 300px;
     margin: auto;
@@ -88,8 +89,7 @@ nav#link a:hover{
 }
 div#fundo{
     width: 100vw;
-    height: 100%;
- 
+    height: 100vh;
     background-size: cover;
     background-position: center center;
 }
