@@ -29,20 +29,20 @@ div.foto{
     width: 350px;
     height: 600px;
     margin: auto;
-    background: url(../imagens/FB_IMG_17290754438129058.jpg) ;
+    background: url(../imagens/FB_IMG_17290754438129058.jpg) no-repeat ;
     background-position: center center;
     background-attachment: fixed;
-    background-size: cover;
+    background-size: contain;
     background-color: rgb(230, 228, 228);
 }
 div.foto1{
     width: 350px;
     height: 600px;
     margin: auto;
-    background: url(../imagens/lore.jpg);
+    background: url(../imagens/lore.jpg)no-repeat;
     background-attachment: fixed;
     background-position: center center;
-    background-size: cover;
+    background-size: contain;
     background-color: rgb(230, 228, 228);
 }
 
@@ -50,10 +50,10 @@ div.foto8{
     width: 350px;
     height: 600px;
     margin: auto;
-    background: url(../imagens/rema.jpg);
+    background: url(../imagens/rema.jpg)no-repeat;
     background-position: center center;
     background-attachment: fixed;
-    background-size: cover;
+    background-size:contain;
     background-color: rgb(230, 228, 228);
 }
 
@@ -61,10 +61,10 @@ div.foto2{
     width: 350px;
     height: 600px;
     margin: auto;
-    background: url(../imagens/FB_IMG_17290758860558993.jpg);
+    background: url(../imagens/FB_IMG_17290758860558993.jpg)no-repeat;
     background-attachment: fixed;
     background-position: center center;
-    background-size: cover;
+    background-size: contain;
     background-color: rgb(230, 228, 228);
 }
 div.foto3{
@@ -75,26 +75,26 @@ div.foto3{
     background-position: center center
     ;
     background-attachment: fixed;
-    background-size: cover;
+    background-size: contain;
     background-color: rgb(230, 228, 228);
 }
 div.foto4{
     width: 350px;
     height: 600px;
     margin: auto;
-    background: url(../imagens/FB_IMG_17290756685158852.jpg);
+    background: url(../imagens/FB_IMG_17290756685158852.jpg)no-repeat;
     background-attachment: fixed;
-    background-size: cover;
+    background-size: contain;
     background-color: rgb(230, 228, 228);
 }
 div.foto5{
     width: 350px;
     height: 600px;
     margin: auto;
-    background: url(../imagens/poster.jpg);
+    background: url(../imagens/poster.jpg)no-repeat;
     background-position: center center;
     background-attachment: fixed;
-    background-size: cover;
+    background-size: contain;
     background-color: rgb(230, 228, 228);
     
 }
@@ -105,7 +105,7 @@ div.foto6{
     background: url(../imagens/love.jpg);
     background-position:  center center;
     background-attachment: fixed;
-    background-size: cover;
+    background-size: contain;
     background-color: rgb(230, 228, 228);
     
 }
@@ -113,10 +113,10 @@ div.foto7{
     width: 350px;
     height: 600px;
     margin: auto;
-    background: url(../imagens/buchexa.jpg);
+    background: url(../imagens/buchexa.jpg)no-repeat;
     background-attachment: fixed;
     background-position: center center;
-    background-size: cover;
+    background-size: contain;
     background-color: rgb(230, 228, 228);
     
 }
@@ -124,10 +124,10 @@ div.foto10{
     width: 350px;
     height: 600px;
     margin: auto;
-    background: url(../imagens/eh.jpg);
+    background: url(../imagens/eh.jpg) no-repeat;
     background-attachment: fixed;
     background-position: center center;
-    background-size: cover;
+    background-size: contain;
     background-color: rgb(230, 228, 228);
     
 }
@@ -135,10 +135,10 @@ div.foto9{
     width: 350px;
     height: 600px;
     margin: auto;
-    background: url(../imagens/voce.jpg);
+    background: url(../imagens/voce.jpg)no-repeat;
     background-attachment: fixed;
     background-position: center center;
-    background-size: cover;
+    background-size: contain;
     background-color: rgb(230, 228, 228);
     
 }
