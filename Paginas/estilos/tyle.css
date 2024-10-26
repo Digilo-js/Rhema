@@ -227,7 +227,7 @@ header#labo  img{
         border: 1px solid black;
         backface-visibility: hidden;
         backdrop-filter:blur(20px) ;
-        background-color: rgb(242, 255, 2);
+        background-color:rgba(0, 0, 0, 0.868);
        
     }
     footer h1{
@@ -363,8 +363,7 @@ header#labo  img{
 
 @media screen and (max-width:300px) {
     main{
-        width: 250px;
-        background-color: rgb(255, 255, 255); 
+        width: 250px; 
         backface-visibility:unset;
         backdrop-filter: blur(10px);
     }
@@ -423,7 +422,6 @@ header#labo  img{
 }
 @media screen and (max-width:550px) {
       main{
-        background-color: rgb(29, 192, 0);
         backface-visibility:unset;
         backdrop-filter: blur(10px);
         width: 360px;
@@ -485,7 +483,6 @@ header#labo  img{
 }
 @media screen and (min-width: 300px) and (max-width: 320px) {
     main{
-        background-color: rgb(147, 0, 0);
         backface-visibility:unset;
         backdrop-filter: blur(10px);
         width: 266px;
@@ -546,7 +543,6 @@ header#labo  img{
 @media screen and (min-width:550px) and (max-width:800px){
     main{
         width: 500px;
-        background-color: #d500bb;
     }
    
     div#foto{
@@ -598,7 +594,6 @@ div#foto10{
 }
 @media screen and (min-width:320px) and (max-width:400px){
     main{
-        background-color: azure;
         width: 290px;
     }
     
