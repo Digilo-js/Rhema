@@ -25,121 +25,121 @@ body{
     
 }
 
-div.foto{
+
+div#foto{
     width: 350px;
-    height: 650px;
+    height: 700px;
     margin: auto;
     background: url(../imagens/FB_IMG_17290754438129058.jpg) no-repeat ;
     background-position: center center;
-    background-attachment: fixed;
+   
     background-size: contain;
-    background-color: rgb(230, 228, 228);
-}
-div.foto1{
-    width: 350px;
-    height: 650px;
-    margin: auto;
-    background: url(../imagens/lore.jpg)no-repeat;
-    background-attachment: fixed;
-    background-position: center center;
-    background-size: contain;
-    background-color: rgb(230, 228, 228);
+    background-color:#231f20;
 }
 
-div.foto8{
+div#foto1{
     width: 350px;
-    height: 650px;
+    height: 700px;
+    margin: auto;
+    background: url(../imagens/lore.jpg)no-repeat;
+  
+    background-position: center center;
+    background-size: contain;
+    background-color: #231f20;
+}
+div#foto8{
+
+    width: 350px;
+    height:700px;
     margin: auto;
     background: url(../imagens/rema.jpg)no-repeat;
     background-position: center center;
-    background-attachment: fixed;
+   
     background-size:contain;
-    background-color: rgb(230, 228, 228);
+    background-color:#231f20;
 }
 
-div.foto2{
+div#foto2{
     width: 350px;
-    height: 650px;
+    height: 700px;
     margin: auto;
     background: url(../imagens/FB_IMG_17290758860558993.jpg)no-repeat;
-    background-attachment: fixed;
+    
     background-position: center center;
     background-size: contain;
-    background-color: rgb(230, 228, 228);
+    background-color: #231f20;
 }
-div.foto3{
+div#foto3{
     width: 350px;
-    height: 650px;
+    height: 700px;
     margin: auto;
     background: url(../imagens/FB_IMG_17290756685158852.jpg);
     background-position: center center
     ;
-    background-attachment: fixed;
+    
     background-size: contain;
-    background-color: rgb(230, 228, 228);
+    background-color: #231f20;
 }
-div.foto4{
+div#foto4{
     width: 350px;
-    height: 650px;
+    height: 700px;
     margin: auto;
     background: url(../imagens/FB_IMG_17290756685158852.jpg)no-repeat;
-    background-attachment: fixed;
+    
     background-size: contain;
-    background-color: rgb(230, 228, 228);
+    background-color: #231f20;
 }
-div.foto5{
+div#foto5{
     width: 350px;
-    height: 650px;
+    height: 700px;
     margin: auto;
     background: url(../imagens/poster.jpg)no-repeat;
     background-position: center center;
-    background-attachment: fixed;
+    
     background-size: contain;
-    background-color: rgb(230, 228, 228);
+    background-color: #231f20;
     
 }
-div.foto6{
+div#foto6{
     width: 350px;
-    height: 650px;
+    height: 700px;
     margin: auto;
     background: url(../imagens/selfi.jpg)no-repeat;
     background-position:  center center;
-    background-attachment: fixed;
+   
     background-size: contain;
-    background-color: rgb(230, 228, 228);
+    background-color: #231f20;
     
 }
-div.foto7{
+div#foto7{
     width: 350px;
-    height: 650px;
+    height: 700px;
     margin: auto;
     background: url(../imagens/buchexa.jpg)no-repeat;
-    background-attachment: fixed;
+    
     background-position: center center;
     background-size: contain;
-    background-color: rgb(230, 228, 228);
+    background-color: #231f20;
     
 }
-div.foto10{
+div#foto10{
     width: 350px;
-    height: 650px;
+    height: 700px;
     margin: auto;
     background: url(../imagens/eh.jpg) no-repeat;
-    background-attachment: fixed;
     background-position: center center;
     background-size: contain;
-    background-color: rgb(230, 228, 228);
+    background-color: #231f20;
     
 }
-div.foto9{
+div#foto9{
     width: 350px;
-    height: 650px;
+    height: 700px;
     margin: auto;
     background: url(../imagens/voce.jpg)no-repeat;
-    background-attachment: fixed;
     background-position: center center;
     background-size: contain;
-    background-color: rgb(230, 228, 228);
+    background-color: #231f20;
     
 }
 #ff{
@@ -267,70 +267,70 @@ header#labo  img{
 
     div.foto{
         width: 100vh;
-        height: 400px;
+        height: 700px;
         background-size: contain;
         background-position: center center;
         
     }
     div.foto1{
         width: 100vh;
-        height: 400px;
+        height: 700px;
         background-size: contain;
         background-position: center center;
         
     }
     div.foto1{
         width: 100vh;
-        height: 400px;
+        height: 700px;
         background-size: contain;
         background-position: center center;
         
     }
     div.foto2{
         width: 100vh;
-        height: 400px;
+        height: 700px;
         background-size: contain;
         background-position: center center;
         
     }
     div.foto3{
         width: 100vh;
-        height: 400px;
+        height: 700px;
         background-size: contain;
         background-position: center center;
         
     }
     div.foto4{
         width: 100vh;
-        height: 400px;
+        height: 700px;
         background-size: contain;
         background-position: center center;
         
     }
     div.foto5{
         width: 100vh;
-        height: 300px;
+        height: 700px;
         background-size: contain;
         background-position: center center;
         
     }
     div.foto6{
         width: 100vh;
-        height: 400px;
+        height: 700px;
         background-size: contain;
         background-position: center center;
         
     }
     div.foto9{
         width: 100vh;
-        height: 400px;
+        height: 700px;
         background-size: contain;
         background-position: center center;
         
     }
     div.foto10{
         width: 100vh;
-        height: 400px;
+        height: 700px;
         background-size: contain;
         background-position: center center;
         
@@ -338,14 +338,14 @@ header#labo  img{
 
     div.foto8{
         width: 100vh;
-        height: 400px;
+        height: 700px;
         background-size: contain;
         background-position: center center;
         
     }
     div.foto7{
         width: 100vh;
-        height: 400px;
+        height: 700px;
         background-size: contain;
         background-position: center center;
         
@@ -372,40 +372,40 @@ header#labo  img{
         font-size: 40px;
     }
 
-    div.foto{
+    div#foto{
        width: 250px;
     }
 
-    div.foto{
+    div#foto{
         width: 250px;
      }
-     div.foto1{
+     div#foto1{
         width: 250px;
      }
-     div.foto2{
+     div#foto2{
         width: 250px;
      }
-     div.foto3{
+     div#foto3{
         width: 250px;
      }
-     div.foto4{
+     div#foto4{
         width: 250px;
      }
-     div.foto5{
+     div#foto5{
         width: 250px;
      }
-     div.foto6{
+     div#foto6{
         width: 250px;
-     }div.foto7{
-        width: 250px;
-     }
-     div.foto8{
+     }div#foto7{
         width: 250px;
      }
-     div.foto9{
+     div#foto8{
         width: 250px;
      }
-     div.foto10{
+     div#foto9{
+        width: 250px;
+     }
+     div#foto10{
         width: 250px;
      }
 
@@ -431,39 +431,41 @@ header#labo  img{
       header h1{
         font-size: 34px;
       }
-     
-      div.foto{
+
+    
+     div#foto{
         background-size: cover;
         width: 350px;
+        
     }
-    div.foto1{
+    div#foto1{
         width: 350px;
     }
-    div.foto2{
+    div#foto2{
         width: 350px;
     }
-    div.foto3{
+    div#foto3{
         width: 350px;
     }
-    div.foto4{
+    div#foto4{
         width: 350px;
     }
-    div.foto5{
+    div#foto5{
         width: 350px;
     }
-    div.foto6{
+    div#foto6{
         width: 350px;
     }
-    div.foto7{
+    div#foto7{
         width: 350px;
     }
-    div.foto8{
+    div#foto8{
         width: 350px;
     }
-    div.foto9{
+    div#foto9{
         width: 350px;
     }
-    div.foto10{
+    div#foto10{
         width: 350px;
     }
     nav#link a{
@@ -481,12 +483,12 @@ header#labo  img{
     }
     
 }
-@media screen and (min-width: 300px) and (max-width: 400px) {
+@media screen and (min-width: 300px) and (max-width: 320px) {
     main{
         background-color: rgb(147, 0, 0);
         backface-visibility:unset;
         backdrop-filter: blur(10px);
-        width: 270px;
+        width: 266px;
     }
     header h1 {
         font-size: 40px;
@@ -494,41 +496,42 @@ header#labo  img{
     nav#link a {
         font-size: 15px;
     }
-    div.foto{
+    div#foto{
         background-repeat: no-repeat;
         background-size: contain;
         width: 260px;
     }
-    div.foto1{
+    div#foto1{
         width: 260px;
     }
     
-    div.foto2{
-        width: 260px;
+    div#foto2{
+        width: 270px;
     }
-    div.foto3{
-        width: 260px;
+    div#foto3{
+        width: 270px;
+        background-repeat: no-repeat;
     }
-    div.foto4{
-        width: 260px;
+    div#foto4{
+        width: 270px;
     }
-    div.foto5{
-        width: 260px;
+    div#foto5{
+        width: 270px;
     }
-    div.foto6{
-        width: 260px;
+    div#foto6{
+        width: 270px;
     }
-    div.foto7{
-        width: 260px;
+    div#foto7{
+        width: 270px;
     }
-    div.foto8{
-        width: 260px;
+    div#foto8{
+        width: 270px;
     }
-    div.foto9{
-        width: 260px;
+    div#foto9{
+        width: 270px;
     }
-    div.foto10{
-        width: 260px;
+    div#foto10{
+        width: 270px;
     }
     main h1{
         font-size: 18px;
@@ -546,49 +549,102 @@ header#labo  img{
         background-color: #d500bb;
     }
    
-    div.foto{
+    div#foto{
         width: 500px;
-        height: 650px;
+        height: 700px;
     }
     
-div.foto1{
+div#foto1{
     width: 500px;
-        height: 650px; 
+    height: 700px;
 }
-div.foto2{
+div#foto2{
     width: 500px;
-    height: 650px;
+     height: 700px;
 }
-div.foto3{
+div#foto3{
     width: 500px;
-    height: 650px;
+     height: 700px;
+    background-repeat: no-repeat;
 }
-div.foto4{
+div#foto4{
     width: 500px;
-    height: 650px;
+     height: 700px;
 }
-div.foto5{
+div#foto5{
     width: 500px;
-    height: 650px;
+     height: 700px;
 }
-div.foto8{
+div#foto8{
     width: 500px;
-    height: 650px;    
+     height: 700px;    
 }
-div.foto6{
+div#foto6{
     width: 500px;
-    height: 650px;   
+     height: 700px;   
 }
-div.foto7{
+div#foto7{
     width: 500px;
-    height: 650px;    
+     height: 700px;    
 }
-div.foto9{
+div#foto9{
     width: 500px;
-    height: 650px;    
+     height: 700px;    
 }
-div.foto10{
+div#foto10{
     width: 500px;
-    height: 650px;    
+     height: 700px;    
 }
+}
+@media screen and (min-width:320px) and (max-width:400px){
+    main{
+        background-color: azure;
+        width: 290px;
+    }
+    
+    div#foto{
+        width: 290px;
+        height: 700px;   
+    }
+    div#foto1{
+        width: 290px;
+        height: 700px;
+    }
+    div#foto2{
+        width: 290px;
+        height: 700px;
+    }
+    div#foto3{
+        width: 290px;
+        height: 700px; 
+        background-repeat: no-repeat;
+    }
+    div#foto4{
+        width: 290px;
+        height: 700px;
+    }
+    div#foto5{
+        width: 290px;
+        height: 700px;
+    }
+    div#foto6{
+        width: 290px;
+        height: 700px;
+    }
+    div#foto7{
+        width: 290px;
+        height: 700px;    
+    }
+    div#foto8{
+        width: 290px;
+         height: 700px;  
+    }
+    div#foto9{
+        width: 290px;
+         height: 700px;  
+    }
+    div#foto10{
+        width: 290px;
+        height: 700px;
+    }
 }
