@@ -27,7 +27,7 @@ body{
 
 div.foto{
     width: 350px;
-    height: 600px;
+    height: 630px;
     margin: auto;
     background: url(../imagens/FB_IMG_17290754438129058.jpg) no-repeat ;
     background-position: center center;
@@ -37,7 +37,7 @@ div.foto{
 }
 div.foto1{
     width: 350px;
-    height: 600px;
+    height: 630px;
     margin: auto;
     background: url(../imagens/lore.jpg)no-repeat;
     background-attachment: fixed;
@@ -48,7 +48,7 @@ div.foto1{
 
 div.foto8{
     width: 350px;
-    height: 600px;
+    height: 630px;
     margin: auto;
     background: url(../imagens/rema.jpg)no-repeat;
     background-position: center center;
@@ -59,7 +59,7 @@ div.foto8{
 
 div.foto2{
     width: 350px;
-    height: 600px;
+    height: 630px;
     margin: auto;
     background: url(../imagens/FB_IMG_17290758860558993.jpg)no-repeat;
     background-attachment: fixed;
@@ -69,7 +69,7 @@ div.foto2{
 }
 div.foto3{
     width: 350px;
-    height: 600px;
+    height: 630px;
     margin: auto;
     background: url(../imagens/FB_IMG_17290756685158852.jpg);
     background-position: center center
@@ -80,7 +80,7 @@ div.foto3{
 }
 div.foto4{
     width: 350px;
-    height: 600px;
+    height: 630px;
     margin: auto;
     background: url(../imagens/FB_IMG_17290756685158852.jpg)no-repeat;
     background-attachment: fixed;
@@ -89,7 +89,7 @@ div.foto4{
 }
 div.foto5{
     width: 350px;
-    height: 600px;
+    height: 630px;
     margin: auto;
     background: url(../imagens/poster.jpg)no-repeat;
     background-position: center center;
@@ -100,9 +100,9 @@ div.foto5{
 }
 div.foto6{
     width: 350px;
-    height: 600px;
+    height: 630px;
     margin: auto;
-    background: url(../imagens/love.jpg);
+    background: url(../imagens/selfi.jpg)no-repeat;
     background-position:  center center;
     background-attachment: fixed;
     background-size: contain;
@@ -111,7 +111,7 @@ div.foto6{
 }
 div.foto7{
     width: 350px;
-    height: 600px;
+    height: 630px;
     margin: auto;
     background: url(../imagens/buchexa.jpg)no-repeat;
     background-attachment: fixed;
@@ -122,7 +122,7 @@ div.foto7{
 }
 div.foto10{
     width: 350px;
-    height: 600px;
+    height: 630px;
     margin: auto;
     background: url(../imagens/eh.jpg) no-repeat;
     background-attachment: fixed;
@@ -133,7 +133,7 @@ div.foto10{
 }
 div.foto9{
     width: 350px;
-    height: 600px;
+    height: 630px;
     margin: auto;
     background: url(../imagens/voce.jpg)no-repeat;
     background-attachment: fixed;
