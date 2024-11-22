@@ -30,7 +30,20 @@ main{
     backface-visibility: hidden;
     backdrop-filter:blur(20px) ;
     background-color: rgba(0, 0, 0, 0.808);
+    position: relative;
    
+}
+h1#fid{
+    margin-top: 0px;
+}
+h1#node{
+    margin-top: 60px;
+}
+h1#fid img{
+    width: 60px;
+    position: absolute;
+    top: 4px;
+    left: 255px;
 }
 .lindo{
     margin: auto;

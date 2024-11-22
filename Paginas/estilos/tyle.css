@@ -12,11 +12,31 @@
     height: 0px;
     width: 0px;
 }
+div.fumar{
+    background-repeat: no-repeat;
+}
 
 :root{
    --fonte-lindo:"linda";
 }
 
+div#musica audio{
+    height: 30px;
+    width: 100%;
+}
+
+div#musica{
+    margin-bottom: 10px; 
+    margin: auto;
+    width: 200px;
+    
+}
+h1#ff img{
+    width: 60px;
+    position: absolute;
+    top: 15px;
+    left: 275px;
+}
 
 body{
     margin: 0%;
@@ -32,7 +52,7 @@ div#foto{
     margin: auto;
     background: url(../imagens/FB_IMG_17290754438129058.jpg) no-repeat ;
     background-position: center center;
-   
+    
     background-size: contain;
     background-color:#231f20;
 }
@@ -42,19 +62,17 @@ div#foto1{
     height: 700px;
     margin: auto;
     background: url(../imagens/lore.jpg)no-repeat;
-  
     background-position: center center;
     background-size: contain;
     background-color: #231f20;
+   
 }
 div#foto8{
-
     width: 350px;
     height:700px;
     margin: auto;
     background: url(../imagens/rema.jpg)no-repeat;
     background-position: center center;
-   
     background-size:contain;
     background-color:#231f20;
 }
@@ -64,7 +82,6 @@ div#foto2{
     height: 700px;
     margin: auto;
     background: url(../imagens/FB_IMG_17290758860558993.jpg)no-repeat;
-    
     background-position: center center;
     background-size: contain;
     background-color: #231f20;
@@ -73,19 +90,17 @@ div#foto3{
     width: 350px;
     height: 700px;
     margin: auto;
-    background: url(../imagens/FB_IMG_17290756685158852.jpg);
-    background-position: center center
-    ;
-    
+    background: url(../imagens/FB_IMG_17290756685158852.jpg)no-repeat;
+    background-position: center center;
     background-size: contain;
     background-color: #231f20;
 }
 div#foto4{
+    border-radius: 30px;
     width: 350px;
     height: 700px;
     margin: auto;
     background: url(../imagens/FB_IMG_17290756685158852.jpg)no-repeat;
-    
     background-size: contain;
     background-color: #231f20;
 }
@@ -95,7 +110,6 @@ div#foto5{
     margin: auto;
     background: url(../imagens/poster.jpg)no-repeat;
     background-position: center center;
-    
     background-size: contain;
     background-color: #231f20;
     
@@ -106,7 +120,6 @@ div#foto6{
     margin: auto;
     background: url(../imagens/selfi.jpg)no-repeat;
     background-position:  center center;
-   
     background-size: contain;
     background-color: #231f20;
     
@@ -116,7 +129,6 @@ div#foto7{
     height: 700px;
     margin: auto;
     background: url(../imagens/buchexa.jpg)no-repeat;
-    
     background-position: center center;
     background-size: contain;
     background-color: #231f20;
@@ -130,7 +142,7 @@ div#foto10{
     background-position: center center;
     background-size: contain;
     background-color: #231f20;
-    
+  
 }
 div#foto9{
     width: 350px;
@@ -172,7 +184,7 @@ header{
 
 header h1 {
     font-family:var(--fonte-lindo);
-    font-size: 50px;
+    font-size: 60px;
     color: #d500bb;
     padding: 20px;
     margin: 0px;
@@ -223,7 +235,7 @@ header#labo  img{
         width: 200px;
         height: 100%;
         margin: auto;
-        border-radius: 20px;
+        border-radius: 30px;
         border: 1px solid black;
         backface-visibility: hidden;
         backdrop-filter:blur(20px) ;
@@ -427,7 +439,7 @@ header#labo  img{
         width: 360px;
       }
       header h1{
-        font-size: 34px;
+        font-size: 45px;
       }
 
     
@@ -496,10 +508,10 @@ header#labo  img{
     div#foto{
         background-repeat: no-repeat;
         background-size: contain;
-        width: 260px;
+        width: 270px;
     }
     div#foto1{
-        width: 260px;
+        width: 270px;
     }
     
     div#foto2{
@@ -545,10 +557,10 @@ header#labo  img{
         width: 500px;
     }
    
-    div#foto{
-        width: 500px;
-        height: 700px;
-    }
+div#foto{
+    width: 500px;
+    height: 700px;
+}
     
 div#foto1{
     width: 500px;
@@ -640,6 +652,113 @@ div#foto10{
     }
     div#foto10{
         width: 290px;
+        height: 700px;
+    }
+}
+
+@media screen and (min-width:800px) {
+    main{
+        backface-visibility: hidden;
+        backdrop-filter:blur(20px) ;
+        background-color:rgba(0, 0, 0, 0.868);
+        width: 755px;
+    }
+    div#foto{
+        width: 90%;;
+        height: 700px;
+    }
+    
+div#foto1{
+    width: 90%;;
+    height: 700px;
+}
+div#foto2{
+    width: 90%;;
+     height: 700px;
+}
+div#foto3{
+    width: 90%;;
+     height: 700px;
+    background-repeat: no-repeat;
+}
+div#foto4{
+    width: 90%;;
+     height: 700px;
+}
+div#foto5{
+    width: 90%;;
+     height: 700px;
+}
+div#foto8{
+    width: 90%;;
+     height: 700px;    
+}
+div#foto6{
+    width: 90%;;
+     height: 700px;   
+}
+div#foto7{
+    width: 90%;;
+     height: 700px;    
+}
+div#foto9{
+    width: 90%;;
+    height: 700px;    
+    border-radius: 0px 0px 20px 20px;
+}
+div#foto10{
+    width: 90%;;
+     height: 700px;    
+}
+}
+@media screen and (min-width:320px) and (max-width:400px){
+    main{
+        width: 290px;
+    }
+    
+    div#foto{
+        width:  290px;
+        height: 700px;   
+    }
+    div#foto1{
+        width: 290px;
+        height: 700px;
+    }
+    div#foto2{
+        width: 290px;
+        height: 700px;
+    }
+    div#foto3{
+        width:  290px;
+        height: 700px; 
+        background-repeat: no-repeat;
+    }
+    div#foto4{
+        width:  290px;
+        height: 700px;
+    }
+    div#foto5{
+        width:  290px;
+        height: 700px;
+    }
+    div#foto6{
+        width: 290px;
+        height: 700px;
+    }
+    div#foto7{
+        width:  290px;
+        height: 700px;    
+    }
+    div#foto8{
+        width:  290px;
+         height: 700px;  
+    }
+    div#foto9{
+        width:  290px;
+         height: 700px;  
+    }
+    div#foto10{
+        width:290px;
         height: 700px;
     }
 }
